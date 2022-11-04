@@ -5,10 +5,10 @@ dir.create("R")
 dir.create("outputs")
 
 # installation de usethis pour fabriquer le fichier DESCRIPTION
-install.packages("usethis")
+#install.packages("usethis")
 
 # fabrication du fichier DESCRIPTION
-usethis::use_description(check_name = FALSE)
+#usethis::use_description(check_name = FALSE)
 
 
 # install renv & use it to install the dependencies
@@ -22,6 +22,6 @@ renv::snapshot()
 
 # si je veux tranmettre mon enviroennement de packages,
 # je transmet mon fichier renv.lock
-
+#création du fichier README.md, on utilise le script usethis::use_readme_md()
 
 
