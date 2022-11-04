@@ -24,4 +24,7 @@ renv::snapshot()
 # je transmet mon fichier renv.lock
 #création du fichier README.md, on utilise le script usethis::use_readme_md()
 
+##comment stager et commiter et pusher, on ecrit dans le fenetre consol/terminal 
+#stage : git add nom_du_fichier +entrer puis actualuser la fenetre git dans l'environnement
+#commmit: git m nom_du_fichier
 
