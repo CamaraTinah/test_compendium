@@ -28,3 +28,9 @@ renv::snapshot()
 #stage : git add nom_du_fichier +entrer puis actualuser la fenetre git dans l'environnement
 #commmit: git m nom_du_fichier
 
+
+#comment revenir sur l'ancienne version
+# taper dans le teminal git log +entrer
+#les lis de commit fait seront donnee avec l'ID du commit , l'auteur, la date,
+#ils sont rangés dans l'ordre le plus recent
+
