@@ -1,0 +1,29 @@
+---
+title: "Global Coral reef fish"
+author: "Camara"
+format: 
+    docx: 
+      toc: true #table de matiere
+      number-sections: true #numero de titre
+
+editor: visual
+---
+
+## Introduction
+
+In this paper, we study the distribution of coral genera and
+
+fish species across the world coral reef.
+
+## Results
+
+```{r}
+dest_fich <- here::here ("outputs/data_clean.csv")
+  
+dat <- read.csv(file=dest_fich)
+n_lign <- nrow(dat)
+```
+
+In this data table we have `r n_lign`observations (coral reef cells)
+
+![](images/hist_coral.png "Distribution of reef coral species"){fig-align="center"}

@@ -61,7 +61,8 @@ plot_hist <- function (taxon) {
     
     hist(dat$cor_gen_div,
          main = "Distribution of coral genera number",
-         xlab = "")
+         xlab = "",
+         col = "green")
     
   } # eo if coral
   
